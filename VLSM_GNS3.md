@@ -5,7 +5,6 @@
 -	Mohamad Valdi Ananda Tauhid		(5025221238)
 
 ## Soal :
-Gambar Toporafi:
 ![SSTopografiSoal](https://github.com/ZhafranMZ/Jarkom-Modul-2-F11-2023/assets/114043452/b4ce0d70-b616-40fa-8719-d35d3e3f92b9)
 
 ## Jawaban
@@ -13,31 +12,25 @@ Gambar Toporafi:
 #### Cara Menjawab
 1. Bagi topografi menjadi beberapa subnet.
 ##### Toporafi Pembagian Subnet
-Gambar:
 ![SS Pembagian Daerah Subnet](https://github.com/ZhafranMZ/Jarkom-Modul-2-F11-2023/assets/114043452/cd4704e2-0cab-4081-8c24-fabea9674db0)
 
 2. Hitung Jumlah IP dari masing-masing subnet dengan cara menjumlahkan total host di dalam subnet.
 ##### Hasil akhir jumlah IP
-Gambar:
 ![SS Rute Subnet VLSM](https://github.com/ZhafranMZ/Jarkom-Modul-2-F11-2023/assets/114043452/59e6ab9d-f56b-4d1f-909e-e49c46788e40)
 
 3. Tentukan Netmask dari masing-masing subnet sesuai dengan tabel di bawah:
 ##### Tabel Netmask
-Gambar:
 ![SS Tabel Netmask ](https://github.com/ZhafranMZ/Jarkom-Modul-2-F11-2023/assets/114043452/421fd1d1-de56-4cb1-aded-eff74d9f6556)
 
 ##### Hasil akhir Netmask Subnet
-Gambar:
 ![SS Rute Subnet VLSM](https://github.com/ZhafranMZ/Jarkom-Modul-2-F11-2023/assets/114043452/e1248162-7374-4653-b0f7-9482c3f4b3b4)
 
 4. Buat tabel untuk rute.
 ##### Tabel Rute
-Gambar:
 ![SS Rute Subnet VLSM](https://github.com/ZhafranMZ/Jarkom-Modul-2-F11-2023/assets/114043452/e1248162-7374-4653-b0f7-9482c3f4b3b4)
 
 5. Buat VLSM Tree
 ##### VLSM Tree
-Gambar:
 ![SS VLSM Tree](https://github.com/ZhafranMZ/Jarkom-Modul-2-F11-2023/assets/114043452/cfaa3ceb-ad72-4eee-b743-3133180d6342)
 ![SS VLSM Tree Hasil 1](https://github.com/ZhafranMZ/Jarkom-Modul-2-F11-2023/assets/114043452/6a1d7f5d-2177-4832-b662-9681cd625571)
 ![SS VLSM Tree Hasil 2](https://github.com/ZhafranMZ/Jarkom-Modul-2-F11-2023/assets/114043452/b3ac4aed-a98e-4d9c-aa98-63ea0ed05e07)
@@ -47,17 +40,14 @@ Gambar:
 
 6. Buat Tabel yang berisi Network ID dari masing-masing subnet sesuai dengan gambar di VLSM Tree lalu isikan juga Netmask dan B Broadcastnya. Ini bisa dihitung dengan cara menambahkan IP dengan wildcard yang nilainya sesuai dengan tabel yang tadi sudah saya tampilkan begitu juga dengan Netmasknya. 
 ##### Tabel Pembagian IP
-Gambar:
 ![SS Pembagian IP-VLSM](https://github.com/ZhafranMZ/Jarkom-Modul-2-F11-2023/assets/114043452/bf644da4-9837-4f70-895a-f94bd1ccbc02)
 
 7. Buat Topografi di GNS3
 ##### Gambar Topografi GNS3
-Gambar:
 ![SS Topografi VLSM GNS3](https://github.com/ZhafranMZ/Jarkom-Modul-2-F11-2023/assets/114043452/efff1c08-5eb1-4597-96a4-89f0d439b3e5)
 
 8. Konfigurasi masing-masing node
 ##### Konfigurasi masing-masing node
-Kode:
 ```
 #Aura
 #a1 - 0
@@ -408,7 +398,6 @@ iface eth0 inet static
 
 9. Ping masing-masing node di command
 ##### SS ping masing-masing node
-Gambar:
 ![AppetitRegion](https://github.com/ZhafranMZ/Jarkom-Modul-2-F11-2023/assets/114043452/a8c671b6-4557-4792-8148-83452c516f41)
 ![Aura](https://github.com/ZhafranMZ/Jarkom-Modul-2-F11-2023/assets/114043452/b5689300-052e-4a6c-95fa-e3d596bccdec)
 ![BredtRegion](https://github.com/ZhafranMZ/Jarkom-Modul-2-F11-2023/assets/114043452/3d22160d-84df-4d54-b913-685cd3a031a9)
